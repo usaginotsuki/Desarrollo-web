@@ -10,7 +10,12 @@
       "**/node_modules/**"
     ]
   },
-  "storage": {
+  "rewrites":[
+    {
+      "source":"**"
+    }
+  ]
+  "storage":{
     "rules": "storage.rules"
   },
   "emulators": {
